@@ -1,3 +1,4 @@
+import AddCourses from "~/components/AddCourses/AddCourses";
 import type { Route } from "./+types/home";
 
 export function meta({}: Route.MetaArgs) {
@@ -8,7 +9,8 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return (<>
+  return (<section className="main-sections">
     <h2>Page d'accueil</h2>
-  </>);
+    <AddCourses/>
+  </section>);
 }

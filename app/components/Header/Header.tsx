@@ -1,5 +1,5 @@
 import MainNav from "../MainNav/MainNav";
-import Logo from "public/favicon.ico";
+import Logo from "/favicon.ico";
 
 export default function Header(){
   return(
