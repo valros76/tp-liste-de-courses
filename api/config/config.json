@@ -1,0 +1,14 @@
+{
+  "autoloadFolder": [
+    "models",
+    "controllers",
+    "utils"
+  ],
+  "database": {
+    "host": "127.0.0.1",
+    "dbname": "liste-de-courses",
+    "username":"root",
+    "password":""
+  },
+  "basepath": ""
+}

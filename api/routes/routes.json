@@ -1,0 +1,52 @@
+[
+  {
+    "path": "/",
+    "controller": "Home",
+    "action": "Index",
+    "method": "GET",
+    "params": []
+  },
+  {
+    "path": "/courses/add",
+    "controller": "Courses",
+    "action": "Add",
+    "method": "POST",
+    "params": [
+      "courses"
+    ]
+  },
+  {
+    "path": "/courses/get/list",
+    "controller": "Courses",
+    "action": "List",
+    "method": "POST",
+    "params": []
+  },
+  {
+    "path": "/courses/update",
+    "controller": "Courses",
+    "action": "Update",
+    "method": "PUT",
+    "params": [
+      "courses"
+    ]
+  },
+  {
+    "path": "/courses/get",
+    "controller": "Courses",
+    "action": "Show",
+    "method": "POST",
+    "params": [
+      "id"
+    ]
+  },
+  {
+    "path": "/courses/delete",
+    "controller": "Courses",
+    "action": "Delete",
+    "method": "POST",
+    "params": [
+      "id"
+    ]
+  }
+]
